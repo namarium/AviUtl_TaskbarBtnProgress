@@ -1,4 +1,4 @@
-﻿/// Copyright (c) 2023 LocalUser
+﻿/// Copyright (c) 2023 namarium
 /// Licensed under the MIT License.
 /// https://opensource.org/licenses/MIT
 
