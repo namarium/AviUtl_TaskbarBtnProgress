@@ -1,0 +1,8 @@
+﻿; Copyright (c) 2023 namarium 
+; Licensed under the MIT License.
+; https://opensource.org/licenses/MIT
+LIBRARY TaskbarBtnProgress
+
+EXPORTS
+	GetFilterTable @1
+	GetFilterTableYUY2 @2
