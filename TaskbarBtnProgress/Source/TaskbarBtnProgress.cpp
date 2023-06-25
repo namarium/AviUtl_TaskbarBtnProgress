@@ -143,7 +143,7 @@ int FilterWndProc(void* hWnd, unsigned int msg, unsigned int wParam, unsigned in
 {
 	using WndMsg = FilterPluginTable::WindowMessage;
 	if (msg == WM_COMMAND && static_cast<WndMsg>(LOWORD(wParam)) == WndMsg::FilterButton)
-	{	// ボタンが押下時
+	{	// ボタン押下時
 		std::wstring msgTxt = L"Window：";
 		msgTxt += g_hMainWnd ? L"OK" : L"Error";
 		msgTxt += L"\nTaskbarBtn：";
