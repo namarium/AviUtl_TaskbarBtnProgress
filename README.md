@@ -1,5 +1,5 @@
 ﻿# AviUtlプラグイン - TaskbarBtnProgress
-![thumb_00](https://github.com/namarium/AviUtl_TaskbarBtnProgress/assets/12238431/76268390-7a45-4562-8827-06020954a7b9)
+![thumb_00](https://github.com/namarium/AviUtl_TaskbarBtnProgress/assets/12238431/ac859a64-d17b-437e-8f58-f2b83e3f3c27)
 
 ## 概要
 タスクバーボタンに、出力の進捗状態を表示するようにします。
