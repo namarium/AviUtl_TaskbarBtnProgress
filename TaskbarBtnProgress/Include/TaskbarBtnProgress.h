@@ -2,7 +2,6 @@
 /// Licensed under the MIT License.
 /// https://opensource.org/licenses/MIT
 
-
 #ifndef TASKBARBTNPROGRESS_H
 #define TASKBARBTNPROGRESS_H
 
