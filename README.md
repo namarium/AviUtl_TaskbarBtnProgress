@@ -2,7 +2,8 @@
 ![thumb_00](https://github.com/namarium/AviUtl_TaskbarBtnProgress/assets/12238431/ac859a64-d17b-437e-8f58-f2b83e3f3c27)
 
 ## 概要
-タスクバーボタンに、出力の進捗状態を表示するようにします。
+タスクバーボタンに、出力の進捗状態を表示するようにします。  
+- ダウンロード：https://namarium.booth.pm/items/4884354
 
 ## 導入方法
 `TaskbarBtnProgress.auf` を aviut.exe の `pluginsフォルダ` にコピーします。
