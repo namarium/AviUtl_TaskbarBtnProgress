@@ -12,6 +12,8 @@
 
 // CLR
 #include <msclr/gcroot.h>
+#include <msclr/auto_gcroot.h>
+#include <msclr/auto_handle.h>
 #include <msclr/marshal_cppstd.h>
 
 // STL
