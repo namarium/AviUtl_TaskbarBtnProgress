@@ -177,7 +177,7 @@ int SaveStart(FilterPluginTable* pFilter, unsigned int startFrame, unsigned int 
 /// <param name="pFilter">フィルタテーブル構造体のアドレス</param>
 /// <param name="pEdit">エディットハンドル</param>
 /// <returns>TRUE なら成功</returns>
-static int SaveEnd(FilterPluginTable* pFilter, void* pEdit)
+int SaveEnd(FilterPluginTable* pFilter, void* pEdit)
 {
 	g_isSaving = false;
 	if (g_pTaskbarList) {
