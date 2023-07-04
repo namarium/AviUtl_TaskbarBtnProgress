@@ -8,7 +8,7 @@
 /// <summary>
 /// バージョン文字列
 /// </summary>
-#define VERSIONINFO_DEFVER_STRING "0.0.63"
+#define VERSIONINFO_DEFVER_STRING "0.0.73"
 
 /// <summary>
 /// バージョン番号
@@ -33,7 +33,7 @@ namespace VersionInfo
 		/// <summary>
 		/// ビルドカウント
 		/// </summary>
-		Build = 63
+		Build = 73
 	};
 
 	/// <summary>

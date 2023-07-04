@@ -10,11 +10,12 @@
 #define WIN32_LEAN_AND_MEAN             // Windows ヘッダーから使用されていない部分を除外します。
 #include <windows.h>
 
-// CLR
+// CLI
 #include <msclr/gcroot.h>
-#include <msclr/auto_gcroot.h>
+#include <msclr/auto_gcroot.h> 
 #include <msclr/auto_handle.h>
 #include <msclr/marshal_cppstd.h>
+#include <msclr/lock.h>
 
 // STL
 #include <cstdlib>		// system

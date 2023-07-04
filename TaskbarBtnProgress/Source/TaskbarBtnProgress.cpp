@@ -95,7 +95,7 @@ namespace
 	/// <summary>
 	/// メッセージ監視用
 	/// </summary>
-	msclr::gcroot<MsgMonitor^> g_msgMonitor = nullptr;
+	msclr::auto_gcroot<MsgMonitor^> g_msgMonitor = nullptr;
 }
 
 /// <summary>
@@ -125,7 +125,8 @@ int FilterInit(FilterPluginTable* pFilter)
 /// </returns>
 int FilterExit(FilterPluginTable* pFilter)
 {
-	if (static_cast<MsgMonitor^>(g_msgMonitor) != nullptr) {
+	
+	if (g_msgMonitor.get()) {
 		g_msgMonitor->ReleaseHandle();
 		g_msgMonitor = nullptr;
 	}
