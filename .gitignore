@@ -350,5 +350,5 @@ MigrationBackup/
 .ionide/
 
 # Custom
-__Dist__/TaskbarBtnProgress.auf
-__WorkSpaces__/TaskbarBtnProgress.auf
+__Dist__/
+__WorkSpaces__/
