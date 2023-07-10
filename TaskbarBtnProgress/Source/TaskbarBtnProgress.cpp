@@ -61,7 +61,7 @@ namespace
 		/// <param name="m">メッセージ</param>
 		[System::Security::Permissions::SecurityPermission(System::Security::Permissions::SecurityAction::Demand
 			, Flags = System::Security::Permissions::SecurityPermissionFlag::UnmanagedCode)]
-		inline void WndProc(System::Windows::Forms::Message% m) override
+		void WndProc(System::Windows::Forms::Message% m) override
 		{
 			if (m.Msg == g_uTBBC)
 			{	// タスクバーボタン作成
