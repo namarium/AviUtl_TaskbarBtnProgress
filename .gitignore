@@ -350,5 +350,9 @@ MigrationBackup/
 .ionide/
 
 # Custom
-__Dist__/
-__WorkSpaces__/
+__Dist__/*
+!__Dist__/.gitkeep
+__ExtraLibs__/*
+!__ExtraLibs__/.gitkeep
+__WorkSpaces__/*
+!__WorkSpaces__/.gitkeep
