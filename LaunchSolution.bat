@@ -1,1 +1,1 @@
-start "" ".\Solution\vs2019\TaskbarBtnProgress.sln"
+start "" ".\Solution\vs2022\TaskbarBtnProgress.sln"
