@@ -5,6 +5,8 @@
 #ifndef VERSIONINFO_H
 #define VERSIONINFO_H
 
+#include <tuple>
+
 /// <summary>
 /// バージョン文字列
 /// </summary>
